@@ -1,6 +1,7 @@
 //correct answers = A, B, A, B, A
 const correctAnswers = ["A", "B", "A", "B", "A"];
 let img = document.createElement("img");
+img.className = "img-fluid img-thumbnail";
 const form = document.querySelector('.quiz-form');
 
 form.addEventListener('submit', e => {
